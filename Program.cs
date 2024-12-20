@@ -1,35 +1,34 @@
-﻿
-// // ürün listesi
-// Console.WriteLine("---------------------------");
-// Console.WriteLine("Rüya Manavına HOŞGELDİNİZ..");
-// Console.WriteLine("Elma: 2 TL\nArmut: 3 TL\nÇilek: 2 TL\nMuz: 3 TL\nDiğer bütün meyveler: 4 TL");
-// Console.WriteLine("---------------------------");
-// Console.Write("Lütfen hangi ürünü istediğinizi giriniz: ");
+// ürün listesi
+Console.WriteLine("---------------------------");
+Console.WriteLine("Rüya Manavına HOŞGELDİNİZ..");
+Console.WriteLine("Elma: 2 TL\nArmut: 3 TL\nÇilek: 2 TL\nMuz: 3 TL\nDiğer bütün meyveler: 4 TL");
+Console.WriteLine("---------------------------");
+Console.Write("Lütfen hangi ürünü istediğinizi giriniz: ");
 
-// // kullanıcının girdiği büyük küçük harf hassasiyetini kaldırmak için düzeltme yapılıyor
-// string? secim = Console.ReadLine().ToLower(); // kullanıcını girdiği türkçe karakterlerde sorun oluşabilir..
+// kullanıcının girdiği büyük küçük harf hassasiyetini kaldırmak için düzeltme yapılıyor
+string? secim = Console.ReadLine().ToLower(); // kullanıcını girdiği türkçe karakterlerde sorun oluşabilir..
 
-// // if else ile ürün seçimi
-// if (secim == "elma")
-// {
-//     Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");
-// }
-// else if (secim == "armut")
-// {
-//     Console.WriteLine("Seçtiğiniz meyvenin fiyatı 3 TL");
-// }
-// else if (secim == "çilek")
-// {
-//     Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");
-// }
-// else if (secim == "muz")
-// {
-//     Console.WriteLine("Seçtiğiniz meyvenin fiyatı 3 TL");
-// }
-// else // kullanıcını istediği farklı ürünlerin fiyatını verir
-// {
-//     Console.WriteLine($"{secim} fiyatı 4 TL");
-// }
+// if else ile ürün seçimi
+if (secim == "elma")
+{
+    Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");
+}
+else if (secim == "armut")
+{
+    Console.WriteLine("Seçtiğiniz meyvenin fiyatı 3 TL");
+}
+else if (secim == "çilek")
+{
+    Console.WriteLine("Seçtiğiniz meyvenin fiyatı 2 TL");
+}
+else if (secim == "muz")
+{
+    Console.WriteLine("Seçtiğiniz meyvenin fiyatı 3 TL");
+}
+else // kullanıcını istediği farklı ürünlerin fiyatını verir
+{
+    Console.WriteLine($"{secim} fiyatı 4 TL");
+}
 
 
 
