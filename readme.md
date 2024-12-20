@@ -11,12 +11,12 @@ Bu uygulamamnın Switch case ile yapılması daha uygun
 çünkü kullanıcıdan alınan değer if else yapısında tek tek dolaşacak ancak switch case 
 yapısında bulunduğu satıra gidip yapıdan çıkacak yani çok veri olan durumlarda switch case yapısı kullnımı daha anlamlı olur...
 
-# if else seçimi
-## Code:
+## if else seçimi
+- Code:
 ![](img/if-else.png)
 
-# switch case seçimi
-## Code:
+## switch case seçimi
+- Code:
 ![](img/switch.png)
 
 ## Output:
